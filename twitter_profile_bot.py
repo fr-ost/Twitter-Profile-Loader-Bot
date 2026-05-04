@@ -1,16 +1,3 @@
-"""
-Twitter Profile Queue Bot for Telegram
-=======================================
-Paste Twitter/X profile links into the chat, then press "Next Profile"
-to cycle through them one by one.
-
-Setup:
-  1. pip install python-telegram-bot
-  2. Get a bot token from @BotFather on Telegram
-  3. Replace YOUR_BOT_TOKEN below (or set env var TELEGRAM_BOT_TOKEN)
-  4. Run: python twitter_profile_bot.py
-"""
-
 import os
 import re
 import logging
@@ -25,7 +12,7 @@ from telegram.ext import (
 )
 
 # ── Config ──────────────────────────────────────────────────────────
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "YOUR_BOT_TOKEN")
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8753831619:AAGBJy_iSJ4s_zQ-Inmx_zyEXS4Zs8bMnBE")
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
